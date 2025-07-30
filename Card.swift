@@ -5,7 +5,6 @@ struct Card: Identifiable, Equatable {
     let suit: String
     let rank: String
     let value: Int
-
     var description: String {
         return "\(rank)\(suit)"
     }
