@@ -19,7 +19,6 @@ class Deck {
             }
         }
 
-        // Ensure Ace of Spades is in
         cards.shuffle()
     }
 
