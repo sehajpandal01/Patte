@@ -1,5 +1,4 @@
 import SwiftUI
-
 struct CardView: View {
     let card: Card
 
