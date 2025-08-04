@@ -32,7 +32,6 @@ class GameState: ObservableObject {
             currentPlayerIndex = (currentPlayerIndex + 1) % players.count
         }
     }
-
     func endRound() {
         let suitCards = playedCards.filter { $0.1.suit == leadSuit }
         if let losingPlay = suitCards.max(by: { $0.1.value < $1.1.value }) {
