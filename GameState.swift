@@ -8,7 +8,6 @@ class GameState: ObservableObject {
     @Published var loserName: String?
     private var deck = Deck()
     private var leadSuit: String?
-
     func startGame(with names: [String]) {
         players = names.map { Player(name: $0, hand: []) }
         deck.deal(to: &players)
