@@ -1,5 +1,4 @@
 import Foundation
-
 class GameState: ObservableObject {
     @Published var players: [Player] = []
     @Published var currentPlayerIndex = 0
