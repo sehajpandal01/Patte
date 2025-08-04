@@ -23,7 +23,6 @@ class GameState: ObservableObject {
         if leadSuit == nil {
             leadSuit = card.suit
         }
-
         players[currentPlayerIndex].playCard(card)
         playedCards.append((currentPlayer, card))
 
