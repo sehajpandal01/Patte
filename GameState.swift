@@ -6,7 +6,6 @@ class GameState: ObservableObject {
     @Published var gameStarted = false
     @Published var gameEnded = false
     @Published var loserName: String?
-
     private var deck = Deck()
     private var leadSuit: String?
 
