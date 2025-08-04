@@ -17,7 +17,6 @@ class GameState: ObservableObject {
         gameStarted = true
         gameEnded = false
     }
-
     func play(card: Card) {
         guard !gameEnded else { return }
 
