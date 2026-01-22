@@ -42,7 +42,6 @@ class GameState: ObservableObject {
         leadSuit = nil
         playedCards = []
         currentPlayerIndex = (currentPlayerIndex + 1) % players.count
-
         if players.contains(where: { $0.hand.isEmpty }) {
             endGame()
         }
