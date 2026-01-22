@@ -9,7 +9,6 @@ class Deck {
         let ranks = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
         let values = Array(1...13)
         cards = []
-
         for (i, rank) in ranks.enumerated() {
             for suit in suits {
                 cards.append(Card(suit: suit, rank: rank, value: values[i]))
