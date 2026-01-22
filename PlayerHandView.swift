@@ -3,7 +3,6 @@ struct PlayerHandView: View {
     let player: Player
     let isCurrent: Bool
     let onCardPlayed: (Card) -> Void
-
     var body: some View {
         VStack {
             Text(player.name)
