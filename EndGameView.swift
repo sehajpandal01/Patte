@@ -1,5 +1,4 @@
 import SwiftUI
-
 struct EndGameView: View {
     let loser: String
     let onRestart: () -> Void
