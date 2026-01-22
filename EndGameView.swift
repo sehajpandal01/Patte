@@ -7,7 +7,6 @@ struct EndGameView: View {
             Text("\(loser) lost the game!")
                 .font(.largeTitle)
                 .padding()
-
             Button("Restart") {
                 onRestart()
             }
