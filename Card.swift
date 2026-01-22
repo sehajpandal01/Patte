@@ -1,5 +1,4 @@
 import Foundation
-
 struct Card: Identifiable, Equatable {
     let id = UUID()
     let suit: String
