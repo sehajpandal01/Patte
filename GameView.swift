@@ -1,5 +1,4 @@
 import SwiftUI
-
 struct GameView: View {
     @ObservedObject var gameState: GameState
 
