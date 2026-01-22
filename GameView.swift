@@ -6,7 +6,6 @@ struct GameView: View {
             Text("Patte – Bhabi Mode")
                 .font(.title)
                 .padding()
-
             Text("Current Player: \(gameState.players[gameState.currentPlayerIndex].name)")
                 .font(.subheadline)
 
