@@ -1,5 +1,4 @@
 import SwiftUI
-
 struct PlayerHandView: View {
     let player: Player
     let isCurrent: Bool
