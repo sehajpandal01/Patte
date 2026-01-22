@@ -1,7 +1,6 @@
 import SwiftUI
 struct GameView: View {
     @ObservedObject var gameState: GameState
-
     var body: some View {
         VStack {
             Text("Patte – Bhabi Mode")
