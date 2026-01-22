@@ -47,7 +47,6 @@ class GameState: ObservableObject {
             endGame()
         }
     }
-
     func endGame() {
         if let loser = players.max(by: { $0.collectedCards.count < $1.collectedCards.count }) {
             loserName = loser.name
