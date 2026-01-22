@@ -1,5 +1,4 @@
 import SwiftUI
-
 struct StartGameView: View {
     @ObservedObject var gameState: GameState
     @State private var playerNames = ["Amrit", "Simran", "Raj"]
