@@ -7,7 +7,6 @@ struct StartGameView: View {
             Text("Welcome to Patte – Bhabi Mode")
                 .font(.largeTitle)
                 .padding()
-
             ForEach(0..<playerNames.count, id: \.self) { i in
                 TextField("Player \(i + 1)", text: $playerNames[i])
                     .textFieldStyle(RoundedBorderTextFieldStyle())
