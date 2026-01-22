@@ -19,7 +19,6 @@ struct GameView: View {
                 }
                 .padding(.vertical)
             }
-
             ScrollView {
                 ForEach(gameState.players) { player in
                     PlayerHandView(player: player,
