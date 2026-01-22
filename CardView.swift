@@ -1,7 +1,6 @@
 import SwiftUI
 struct CardView: View {
     let card: Card
-
     var body: some View {
         Text(card.description)
             .font(.title2)
