@@ -1,5 +1,4 @@
 import SwiftUI
-
 @main
 struct PatteApp: App {
     @StateObject var gameState = GameState()
