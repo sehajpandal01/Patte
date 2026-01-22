@@ -54,7 +54,6 @@ class GameState: ObservableObject {
         }
         gameEnded = true
     }
-
     func resetGame() {
         players.removeAll()
         gameStarted = false
