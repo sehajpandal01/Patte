@@ -8,7 +8,6 @@ struct GameView: View {
                 .padding()
             Text("Current Player: \(gameState.players[gameState.currentPlayerIndex].name)")
                 .font(.subheadline)
-
             if !gameState.playedCards.isEmpty {
                 HStack {
                     ForEach(gameState.playedCards, id: \.1.id) { entry in
