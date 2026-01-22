@@ -14,7 +14,6 @@ class Deck {
                 cards.append(Card(suit: suit, rank: rank, value: values[i]))
             }
         }
-
         cards.shuffle()
     }
 
