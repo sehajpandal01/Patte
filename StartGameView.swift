@@ -13,7 +13,6 @@ struct StartGameView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding(.horizontal)
             }
-
             Button("Start Game") {
                 gameState.startGame(with: playerNames)
             }
