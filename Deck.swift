@@ -1,7 +1,6 @@
 import Foundation
 class Deck {
     private(set) var cards: [Card] = []
-
     init() {
         reset()
     }
