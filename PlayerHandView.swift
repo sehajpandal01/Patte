@@ -8,7 +8,6 @@ struct PlayerHandView: View {
             Text(player.name)
                 .font(.headline)
                 .foregroundColor(isCurrent ? .blue : .primary)
-
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack {
                     ForEach(player.hand) { card in
