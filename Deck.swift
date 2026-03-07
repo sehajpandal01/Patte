@@ -15,7 +15,7 @@ class Deck {
             }
         }
         cards.shuffle()
-    }  
+    }
     func deal(to players: inout [Player]) {
         reset()
         var index = 0
