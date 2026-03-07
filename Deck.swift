@@ -13,7 +13,7 @@ class Deck {
             for suit in suits {
                 cards.append(Card(suit: suit, rank: rank, value: values[i]))
             }
-        }
+        } 
         cards.shuffle()
     }
     func deal(to players: inout [Player]) {
