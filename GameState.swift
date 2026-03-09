@@ -16,7 +16,7 @@ class GameState: ObservableObject {
         leadSuit = nil
         gameStarted = true
         gameEnded = false
-    }
+    } 
     func play(card: Card) {
         guard !gameEnded else { return }
         let currentPlayer = players[currentPlayerIndex]
