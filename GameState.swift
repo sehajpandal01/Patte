@@ -38,7 +38,7 @@ class GameState: ObservableObject {
             if let loserIndex = players.firstIndex(where: { $0.id == losingPlay.0.id }) {
                 players[loserIndex].collectedCards.append(contentsOf: playedCards.map { $0.1 })
             }
-        }
+        }  
         leadSuit = nil
         playedCards = []
         currentPlayerIndex = (currentPlayerIndex + 1) % players.count
