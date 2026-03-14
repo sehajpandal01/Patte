@@ -9,4 +9,4 @@ struct CardView: View {
             .cornerRadius(8)
             .shadow(radius: 2)
     }
-}
+} 
