@@ -59,3 +59,4 @@ class GameState: ObservableObject {
         loserName = nil
     }
 }
+  
