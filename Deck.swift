@@ -25,4 +25,4 @@ class Deck {
             index += 1
         }
     }
-}
+} 
