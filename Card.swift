@@ -11,7 +11,7 @@ struct Card: Identifiable, Equatable {
   
   
    
-      
+       
  
  
  
