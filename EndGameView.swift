@@ -16,5 +16,5 @@ struct EndGameView: View {
 }
  
    
-      
+        
   
