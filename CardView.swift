@@ -12,4 +12,3 @@ struct CardView: View {
 } 
   
   
-   
