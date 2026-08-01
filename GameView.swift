@@ -29,5 +29,3 @@ struct GameView: View {
         }
     }
 }
-  
-  
