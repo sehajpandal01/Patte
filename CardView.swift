@@ -10,3 +10,6 @@ struct CardView: View {
             .shadow(radius: 2)
     }
 } 
+
+
+
