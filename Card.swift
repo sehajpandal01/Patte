@@ -9,5 +9,3 @@ struct Card: Identifiable, Equatable {
     }
 }
   
- 
- 
