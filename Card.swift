@@ -10,4 +10,3 @@ struct Card: Identifiable, Equatable {
 }
  
  
- 
