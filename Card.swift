@@ -8,5 +8,3 @@ struct Card: Identifiable, Equatable {
         return "\(rank)\(suit)"
     }
 }
-  
- 
